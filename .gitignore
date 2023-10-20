@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+# Misc
+yarn.lock
+.vscode
+package-lock.json
+temp
+
 # testing
 /coverage
 
@@ -32,4 +38,3 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
