@@ -1,25 +1,53 @@
 {
-  "name": "share-prompts",
+  "name": "nft",
   "version": "0.1.0",
-  "private": true,
+  "description": "Discover a digital realm where creativity meets blockchain on our NFT website. Immerse yourself in a vibrant marketplace where artists tokenize their unique works, transforming art into one-of-a-kind digital assets. From stunning visuals to rare collectibles, our platform bridges the gap between creators and collectors. Dive into a decentralized ecosystem where authenticity is guaranteed through blockchain technology, ensuring each NFT is a testament to the artist's genius. Whether you're an artist seeking to showcase your talent or a collector in search of exclusive digital treasures, our NFT website is your gateway to a dynamic, secure, and limitless world of digital art ownership.",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "npm": "^9.6.0",
+    "yarn": "^1.22.0",
+    "node": "^18.12.1"
+  },
+  "homepage": "https://nft-xi-two.vercel.app/",
+  "author": {
+    "email": "mohamedtaysser983@gmai.com",
+    "name": "Mohammed Taysser",
+    "url": "https://mohammed-taysser.github.io/portfolio/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammed-taysser/nft.git"
+  },
+  "license": "MIT",
   "dependencies": {
-    "@types/node": "20.6.0",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19",
-    "next": "13.4.19",
-    "postcss": "8.4.29",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
-  }
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@types/node": "^20.8.7",
+    "@types/react": "^18.2.30",
+    "@types/react-dom": "^18.2.14",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.51.0",
+    "eslint-config-next": "^13.5.6",
+    "framer-motion": "^10.16.4",
+    "millify": "^6.1.0",
+    "next": "^13.5.6",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "sass": "^1.69.4",
+    "sharp": "^0.32.6",
+    "swiper": "^10.3.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {}
 }
