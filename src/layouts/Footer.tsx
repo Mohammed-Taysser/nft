@@ -5,7 +5,7 @@ import { FormEvent, useState } from 'react';
 import { BiLogoFacebook } from 'react-icons/bi';
 import { BsInstagram, BsSend, BsTwitter } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa6';
-import favicon from '../../public/images/icons/logo.svg';
+import favicon from '@/assets/images/icons/logo.svg';
 
 function Footer() {
   const [email, setEmail] = useState('');

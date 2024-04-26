@@ -1,3 +1,4 @@
+import blurImage from '@/assets/images/icons/blur.svg';
 import {
   Button,
   Container,
@@ -5,11 +6,9 @@ import {
   Wrap,
   WrapItem,
 } from '@chakra-ui/react';
-import React from 'react';
-import heroImage from '../../public/images/background/hero-image.svg';
-import heroBG from '../../public/images/background/hero-bg.png';
 import Image from 'next/image';
-import Blur from '@/SVG/Blur';
+import heroBG from '@/assets/images/background/hero-bg.png';
+import heroImage from '@/assets/images/background/hero-image.svg';
 
 function Header() {
   return (
@@ -18,7 +17,7 @@ function Header() {
       style={{ backgroundImage: `url('${heroBG.src}')` }}
     >
       <div className='shapes'>
-        <Blur className='blur' />
+        <Image src={blurImage} alt='blur-icon' />
       </div>
 
       <Container>

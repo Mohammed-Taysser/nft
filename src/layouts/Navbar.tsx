@@ -11,7 +11,7 @@ import {
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import favicon from '../../public/images/icons/logo.svg';
+import favicon from '@/assets/images/icons/logo.svg';
 import { BsChevronDown } from 'react-icons/bs';
 import { IoWalletOutline } from 'react-icons/io5';
 

@@ -4,6 +4,7 @@ import { Children } from 'react';
 
 function SectionTitle(props: SectionTitleProps) {
   const { title, url } = props;
+
   return (
     <div className='section-title'>
       <div className='wrapper'>

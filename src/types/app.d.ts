@@ -56,3 +56,13 @@ interface Feature {
   icon: IconType;
   color: string;
 }
+
+interface BannerItem {
+  label: string;
+  url: string;
+}
+
+interface GradientTitleProps {
+  title: string
+  subtitle: string
+}
