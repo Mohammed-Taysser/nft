@@ -57,6 +57,13 @@ interface Feature {
   color: string;
 }
 
+interface Wallet {
+  id: string;
+  title: string;
+  info: string;
+  image: StaticImport;
+}
+
 interface BannerItem {
   label: string;
   url: string;

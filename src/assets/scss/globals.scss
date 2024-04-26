@@ -632,6 +632,41 @@ ul.banner-breadcrumb {
   }
 }
 
+.wallet {
+  .single-wallet {
+    padding: 1.75rem;
+    background-color: rgb(44, 44, 57);
+    border: 1px solid rgb(77, 76, 90);
+    border-radius: 0.75rem;
+    color: #fff;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #fff;
+
+      .title {
+        color: #000;
+      }
+    }
+
+    .title {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
+      line-height: 1.75;
+      transition: 0.3s;
+      font-weight: 700;
+    }
+
+    .info {
+      color: rgb(161, 160, 174);
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+}
+
 footer.footer {
   margin-top: 100px;
   padding-bottom: 6rem;

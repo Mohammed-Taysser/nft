@@ -79,7 +79,9 @@ function Navbar() {
 
           <Spacer />
 
-          <Button leftIcon={<IoWalletOutline />}>Wallet Connect</Button>
+          <Link href='connect-wallet'>
+            <Button leftIcon={<IoWalletOutline />}>Wallet Connect</Button>
+          </Link>
         </Flex>
       </Container>
     </nav>

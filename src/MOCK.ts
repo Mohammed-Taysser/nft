@@ -34,11 +34,20 @@ import artist2 from '@/assets/images/artists/image-02.png';
 import artist3 from '@/assets/images/artists/image-03.png';
 import artist4 from '@/assets/images/artists/image-04.png';
 
-import { addTimeToDate } from './helpers/date';
-import { IoCheckmarkDone, IoWalletOutline } from 'react-icons/io5';
+import wallet1 from '@/assets/images/wallet/image-01.svg';
+import wallet2 from '@/assets/images/wallet/image-02.svg';
+import wallet3 from '@/assets/images/wallet/image-03.svg';
+import wallet4 from '@/assets/images/wallet/image-04.svg';
+import wallet5 from '@/assets/images/wallet/image-05.svg';
+import wallet6 from '@/assets/images/wallet/image-06.svg';
+import wallet7 from '@/assets/images/wallet/image-07.svg';
+import wallet8 from '@/assets/images/wallet/image-08.svg';
+
 import { AiOutlineAppstoreAdd } from 'react-icons/ai';
+import { BsCoin, BsStars } from 'react-icons/bs';
+import { IoCheckmarkDone, IoWalletOutline } from 'react-icons/io5';
 import { LuSettings2 } from 'react-icons/lu';
-import { BsStars, BsCoin } from 'react-icons/bs';
+import { addTimeToDate } from './helpers/date';
 
 const PRODUCTS: Product[] = [
   {
@@ -431,4 +440,56 @@ const FEATURES: Feature[] = [
   },
 ];
 
-export { AUCTIONS, PRODUCTS, ARTISTS, FEATURES };
+const WALLET: Wallet[] = [
+  {
+    id: '65056243fc13ae27edfd5481',
+    title: 'Meta Mask',
+    info: ' Lorem ipsum dolor sit amet consectetur smit. ',
+    image: wallet1,
+  },
+  {
+    id: '65058512fc13ae6bebfd5416',
+    title: 'Bitski',
+    info: ' Lorem ipsum dolor sit amet consectetur smit. ',
+    image: wallet2,
+  },
+  {
+    id: '65058512fc13ae6bebfd5417',
+    title: 'Fortmatic',
+    info: ' Lorem ipsum dolor sit amet consectetur smit. ',
+    image: wallet3,
+  },
+  {
+    id: '65058512fc13ae6bebfd541c',
+    title: 'Wallet Connect ',
+    info: ' Lorem ipsum dolor sit amet consectetur smit. ',
+    image: wallet4,
+  },
+  {
+    id: '65058512fc13ae6bebfd5429',
+    title: 'Coinbase Wallet ',
+    info: ' Lorem ipsum dolor sit amet consectetur smit. ',
+    image: wallet5,
+  },
+  {
+    id: '65058516fc13ae6bebfd5429',
+    title: 'Authereum',
+    info: ' Lorem ipsum dolor sit amet consectetur smit. ',
+    image: wallet6,
+  },
+  {
+    id: '65058516fc13ae6bebfd5429',
+    title: 'Kaikas ',
+    info: ' Lorem ipsum dolor sit amet consectetur smit. ',
+    image: wallet7,
+  },
+  {
+    id: '65058516fc13ae6bebfd5429',
+    title: 'Torus',
+    info: ' Lorem ipsum dolor sit amet consectetur smit. ',
+    image: wallet8,
+  },
+];
+
+export { ARTISTS, AUCTIONS, FEATURES, PRODUCTS, WALLET };
+
