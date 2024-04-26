@@ -11,7 +11,7 @@ import { Metadata } from 'next';
 import { FaArrowLeftLong, FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata: Metadata = {
-  title: 'Homepage',
+  title: 'NFT | Homepage',
 };
 
 function Homepage() {
