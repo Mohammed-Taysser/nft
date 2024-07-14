@@ -17,7 +17,7 @@ function Header() {
       style={{ backgroundImage: `url('${heroBG.src}')` }}
     >
       <div className='shapes'>
-        <Image src={blurImage} alt='blur-icon' />
+        <Image src={blurImage} alt='blur-icon' className='blur' />
       </div>
 
       <Container>

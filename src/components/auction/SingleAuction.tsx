@@ -1,9 +1,8 @@
 import { formateNumber } from '@/helpers/millify';
 import { Avatar, Box, Button } from '@chakra-ui/react';
-import millify from 'millify';
 import Image from 'next/image';
 import Link from 'next/link';
-import { AiFillHeart } from 'react-icons/ai';
+import Likes from '../Likes';
 import Timer from './Timer';
 
 function SingleAuction(props: { auction: Auction }) {
@@ -18,10 +17,7 @@ function SingleAuction(props: { auction: Auction }) {
           height={220}
           alt={auction.title}
         />
-        <span className='likes'>
-          <AiFillHeart />
-          {formateNumber(auction.rating.count)}
-        </span>
+        <Likes count={auction.rating.count} />
       </div>
 
       <div className='info'>

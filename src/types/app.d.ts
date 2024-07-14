@@ -1,5 +1,5 @@
 interface Product {
-  id: string;
+  id: number;
   title: string;
   price: number;
   description: string;
@@ -70,6 +70,11 @@ interface BannerItem {
 }
 
 interface GradientTitleProps {
-  title: string
-  subtitle: string
+  title: string;
+  subtitle: string;
+}
+
+interface LikesProps {
+  count: number;
+  className?: HTMLProps<HTMLElement>['className'];
 }

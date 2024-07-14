@@ -1,8 +1,6 @@
-import { formateNumber } from '@/helpers/millify';
 import { Avatar, Box, Button, Flex } from '@chakra-ui/react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { AiFillHeart } from 'react-icons/ai';
+import Likes from '../Likes';
 
 import avatar from '@/assets/images/collections/collection-1-avatar.png';
 import image1 from '@/assets/images/collections/collection-1-image-01.svg';
@@ -26,19 +24,11 @@ function Collection1() {
 
       <div className='info mt-6'>
         <Flex justify='space-between' align='center'>
-          <Button
-            className='title'
-            variant='link'
-            as={Link}
-            href={`/products/${1}`}
-          >
+          <Button className='title' variant='link'>
             Creative 3d illustration
           </Button>
 
-          <span className='likes'>
-            <AiFillHeart />
-            {formateNumber(61297)}
-          </span>
+          <Likes count={61297} className='!static' />
         </Flex>
 
         <div className='avatar-col'>

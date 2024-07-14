@@ -1,7 +1,5 @@
-import { PRODUCTS } from '@/MOCK';
 import Banner from '@/components/Banner';
-import Products from '@/components/products/Products';
-import { Container } from '@chakra-ui/react';
+import ExploreProducts from '@/content/ExploreProducts';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -24,9 +22,7 @@ function Explore() {
     <>
       <Banner items={bannerItems} />
 
-      <Container>
-        <Products products={PRODUCTS} />
-      </Container>
+      <ExploreProducts />
     </>
   );
 }
