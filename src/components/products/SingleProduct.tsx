@@ -2,9 +2,9 @@ import { formateNumber } from '@/helpers/millify';
 import { Avatar, Box, Button } from '@chakra-ui/react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { AiFillHeart } from 'react-icons/ai';
+import Likes from '../Likes';
 
-function SingleProduct(props: { product: Product }) {
+function SingleProduct(props: Readonly<{ product: Product }>) {
   const { product } = props;
 
   return (
@@ -13,13 +13,12 @@ function SingleProduct(props: { product: Product }) {
         <Image
           src={product.image}
           width={300}
+          loading='lazy'
           height={220}
           alt={product.title}
         />
-        <span className='likes'>
-          <AiFillHeart />
-          {formateNumber(product.rating.count)}
-        </span>
+
+        <Likes count={product.rating.count} />
       </div>
 
       <div className='info'>

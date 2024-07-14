@@ -1,7 +1,7 @@
 import { SimpleGrid } from '@chakra-ui/react';
 import SingleProduct from './SingleProduct';
 
-function Products(props: { products: Product[] }) {
+function Products(props: Readonly<{ products: Product[] }>) {
   const { products } = props;
 
   return (
