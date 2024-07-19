@@ -6,7 +6,7 @@ import {
   extendTheme,
 } from '@chakra-ui/react';
 
-function Chakra(props: { children: React.ReactNode }) {
+function Chakra(props: Readonly<{ children: React.ReactNode }>) {
   const theme: ThemeConfig = extendTheme({
     initialColorMode: 'dark',
     useSystemColorMode: false,

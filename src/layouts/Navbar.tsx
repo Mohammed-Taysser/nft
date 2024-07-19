@@ -72,7 +72,7 @@ function Navbar() {
               </li>
 
               <li>
-                <Link href='/'>Support</Link>
+                <Link href='/support'>Support</Link>
               </li>
             </ul>
           </div>
