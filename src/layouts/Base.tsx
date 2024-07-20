@@ -9,6 +9,7 @@ function Base(props: { children: React.ReactNode }) {
   return (
     <>
       <ColorModeScript initialColorMode='dark' />
+
       <Chakra>
         <Navbar />
         {props.children}
