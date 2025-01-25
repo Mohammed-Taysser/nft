@@ -2,6 +2,7 @@ import {
   Button,
   Container,
   Flex,
+  IconButton,
   Menu,
   MenuButton,
   MenuItem,
@@ -14,12 +15,26 @@ import { usePathname } from 'next/navigation';
 import favicon from '@/assets/images/icons/logo.svg';
 import { BsChevronDown } from 'react-icons/bs';
 import { IoWalletOutline } from 'react-icons/io5';
+import { HiOutlineMenu } from 'react-icons/hi';
+import { useEffect, useState } from 'react';
 
 function Navbar() {
   const pathname = usePathname();
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    });
+  }, []);
+
   return (
-    <nav className='navbar'>
+    <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <Container>
         <Flex minWidth='max-content' alignItems='center' gap='2'>
           <Link href='/' className='favicon'>
@@ -27,7 +42,8 @@ function Navbar() {
           </Link>
 
           <Spacer />
-          <div className='sitemap'>
+
+          <div className='sitemap hidden md:block'>
             <ul>
               <li>
                 <Link className={pathname === '/' ? 'active' : ''} href='/'>
@@ -90,6 +106,40 @@ function Navbar() {
           <Link href='/connect-wallet'>
             <Button leftIcon={<IoWalletOutline />}>Wallet Connect</Button>
           </Link>
+
+          <Menu>
+            <MenuButton
+              as={IconButton}
+              icon={<HiOutlineMenu size={20} />}
+              variant='ghost'
+              className='md:!hidden'
+            >
+              Actions
+            </MenuButton>
+            <MenuList className='dropdown'>
+              <MenuItem as={Link} href='/'>
+                Homepage
+              </MenuItem>
+              <MenuItem as={Link} href='/support'>
+                Support
+              </MenuItem>
+              <MenuItem as={Link} href='/login'>
+                Login
+              </MenuItem>
+              <MenuItem as={Link} href='/register'>
+                Register
+              </MenuItem>
+              <MenuItem as={Link} href='/forget-password'>
+                Forget Password
+              </MenuItem>
+              <MenuItem as={Link} href='/explore'>
+                Explore
+              </MenuItem>
+              <MenuItem as={Link} href='/explore/1'>
+                Explore Item
+              </MenuItem>
+            </MenuList>
+          </Menu>
         </Flex>
       </Container>
     </nav>

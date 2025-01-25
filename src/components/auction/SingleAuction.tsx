@@ -17,7 +17,9 @@ function SingleAuction(props: Readonly<{ auction: Auction }>) {
           height={220}
           alt={auction.title}
         />
-        <Likes count={auction.rating.count} />
+        <div className='likes-wrapper'>
+          <Likes count={auction.rating.count} />
+        </div>
       </div>
 
       <div className='info'>
