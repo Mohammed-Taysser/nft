@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Likes from '../Likes';
 import Timer from './Timer';
 
-function SingleAuction(props: { auction: Auction }) {
+function SingleAuction(props: Readonly<{ auction: Auction }>) {
   const { auction } = props;
 
   return (
@@ -25,7 +25,7 @@ function SingleAuction(props: { auction: Auction }) {
           className='title'
           variant='link'
           as={Link}
-          href={`/products/${auction.id}`}
+          href={`/explore/${auction.id}`}
         >
           {auction.title}
         </Button>
@@ -51,9 +51,7 @@ function SingleAuction(props: { auction: Auction }) {
           </div>
         </div>
 
-        <div className='timer'>
-          <Timer timeout={auction.timeout} />
-        </div>
+        <Timer timeout={auction.timeout} />
       </div>
     </Box>
   );

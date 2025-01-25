@@ -1,5 +1,5 @@
 import { formateNumber } from '@/helpers/millify';
-import { Avatar, Box, Button } from '@chakra-ui/react';
+import { Avatar, Box, Button, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Likes from '../Likes';
@@ -18,7 +18,9 @@ function SingleProduct(props: Readonly<{ product: Product }>) {
           alt={product.title}
         />
 
-        <Likes count={product.rating.count} />
+        <div className='likes-wrapper'>
+          <Likes count={product.rating.count} />
+        </div>
       </div>
 
       <div className='info'>
@@ -26,7 +28,7 @@ function SingleProduct(props: Readonly<{ product: Product }>) {
           className='title'
           variant='link'
           as={Link}
-          href={`/products/${product.id}`}
+          href={`/explore/${product.id}`}
         >
           {product.title}
         </Button>
@@ -41,8 +43,13 @@ function SingleProduct(props: Readonly<{ product: Product }>) {
               />
             </div>
             <div className=''>
-              <div className='name'>{product.user.name}</div>
-              <div className='job'>{product.user.job}</div>
+              <Text fontSize='xs' as='b'>
+                {product.user.name}
+              </Text>
+
+              <Text fontSize='xs' className='text-[#a1a0ae]'>
+                {product.user.job}
+              </Text>
             </div>
           </div>
 
@@ -53,7 +60,7 @@ function SingleProduct(props: Readonly<{ product: Product }>) {
         </div>
 
         <div className='btn-container'>
-          <Button as={Link} href={`/products/${product.id}`}>
+          <Button as={Link} href={`/explore/${product.id}`}>
             Place Bid
           </Button>
 
@@ -61,7 +68,7 @@ function SingleProduct(props: Readonly<{ product: Product }>) {
             colorScheme='white'
             variant='link'
             as={Link}
-            href={`/products/${product.id}`}
+            href={`/explore/${product.id}`}
           >
             View History
           </Button>

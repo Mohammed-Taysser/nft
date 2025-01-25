@@ -39,7 +39,7 @@ import { addTimeToDate } from './helpers/date';
 
 const PRODUCTS: Product[] = [
   {
-    id: 1,
+    id: '1',
     title: 'Flexidy',
     price: 1569.47,
     description:
@@ -53,7 +53,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 2,
+    id: '2',
     title: 'Ronstring',
     price: 551.38,
     description:
@@ -63,7 +63,7 @@ const PRODUCTS: Product[] = [
     user: { avatar: '/authors/2.png', name: 'Rip Linskill', job: 'Engineer I' },
   },
   {
-    id: 3,
+    id: '3',
     title: 'Lotstring',
     price: 879.7,
     description:
@@ -77,7 +77,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 4,
+    id: '4',
     title: 'Prodder',
     price: 1460.89,
     description:
@@ -91,7 +91,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 5,
+    id: '5',
     title: 'Fixflex',
     price: 534.16,
     description: 'In congue. Etiam justo. Etiam pretium iaculis justo.',
@@ -104,7 +104,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 6,
+    id: '6',
     title: 'Keylex',
     price: 449.34,
     description:
@@ -118,7 +118,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 7,
+    id: '7',
     title: 'Cookley',
     price: 1937.79,
     description:
@@ -132,7 +132,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 8,
+    id: '8',
     title: 'Bitwolf',
     price: 305.58,
     description:
@@ -146,7 +146,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 9,
+    id: '9',
     title: 'Cookley',
     price: 754.83,
     description:
@@ -160,7 +160,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 10,
+    id: '10',
     title: 'Cookley',
     price: 79.96,
     description:
@@ -174,7 +174,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 11,
+    id: '11',
     title: 'Konklux',
     price: 163.25,
     description:
@@ -188,7 +188,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 12,
+    id: '12',
     title: 'Redhold',
     price: 1029.7,
     description:
@@ -202,7 +202,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 13,
+    id: '13',
     title: 'Mat Lam Tam',
     price: 1929.46,
     description:
@@ -216,7 +216,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 14,
+    id: '14',
     title: 'Pannier',
     price: 1745.12,
     description:
@@ -230,7 +230,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 15,
+    id: '15',
     title: 'Voltsillam',
     price: 1734.12,
     description:
@@ -244,7 +244,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 16,
+    id: '16',
     title: 'Wrapsafe',
     price: 1142.39,
     description:
@@ -258,7 +258,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 17,
+    id: '17',
     title: 'Subin',
     price: 1340.41,
     description:
@@ -272,7 +272,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 18,
+    id: '18',
     title: 'Zaam-Dox',
     price: 472.7,
     description:
@@ -286,7 +286,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 19,
+    id: '19',
     title: 'Opela',
     price: 1709.57,
     description:
@@ -300,7 +300,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 20,
+    id: '20',
     title: 'Tres-Zap',
     price: 1862.91,
     description:
@@ -314,7 +314,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 21,
+    id: '21',
     title: 'Asoka',
     price: 732.69,
     description:
@@ -328,7 +328,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 22,
+    id: '22',
     title: 'Sub-Ex',
     price: 1673.97,
     description:
@@ -342,7 +342,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 23,
+    id: '23',
     title: 'Y-find',
     price: 364.4,
     description:
@@ -356,7 +356,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 24,
+    id: '24',
     title: 'Fixflex',
     price: 1244.75,
     description:
@@ -370,7 +370,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 25,
+    id: '25',
     title: 'Transcof',
     price: 764.51,
     description:
@@ -384,7 +384,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 26,
+    id: '26',
     title: 'Job',
     price: 300.71,
     description:
@@ -398,7 +398,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 27,
+    id: '27',
     title: 'Tampflex',
     price: 1579.71,
     description:
@@ -412,7 +412,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 28,
+    id: '28',
     title: 'Temp',
     price: 1924.69,
     description:
@@ -426,7 +426,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 29,
+    id: '29',
     title: 'Span',
     price: 197.6,
     description:
@@ -440,7 +440,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 30,
+    id: '30',
     title: 'Trippledex',
     price: 525.99,
     description:
@@ -454,7 +454,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 31,
+    id: '31',
     title: 'Bytecard',
     price: 342.74,
     description:
@@ -468,7 +468,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 32,
+    id: '32',
     title: 'Transcof',
     price: 1284.15,
     description:
@@ -482,7 +482,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 33,
+    id: '33',
     title: 'Opela',
     price: 693.43,
     description:
@@ -496,7 +496,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 34,
+    id: '34',
     title: 'Bamity',
     price: 192.11,
     description: 'In congue. Etiam justo. Etiam pretium iaculis justo.',
@@ -509,7 +509,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 35,
+    id: '35',
     title: 'Zathin',
     price: 1363.6,
     description:
@@ -523,7 +523,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 36,
+    id: '36',
     title: 'Zathin',
     price: 430.79,
     description:
@@ -537,7 +537,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 37,
+    id: '37',
     title: 'Regrant',
     price: 1933.17,
     description:
@@ -547,7 +547,7 @@ const PRODUCTS: Product[] = [
     user: { avatar: '/authors/37.png', name: 'Liam Guerner', job: 'Operator' },
   },
   {
-    id: 38,
+    id: '38',
     title: 'Wrapsafe',
     price: 205.94,
     description:
@@ -561,7 +561,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 39,
+    id: '39',
     title: 'Pannier',
     price: 1273.19,
     description:
@@ -575,7 +575,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 40,
+    id: '40',
     title: 'Y-find',
     price: 1825.99,
     description:
@@ -589,7 +589,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 41,
+    id: '41',
     title: 'Rank',
     price: 806.74,
     description:
@@ -603,7 +603,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 42,
+    id: '42',
     title: 'Stringtough',
     price: 1458.57,
     description:
@@ -617,7 +617,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 43,
+    id: '43',
     title: 'Aerified',
     price: 1432.97,
     description:
@@ -631,7 +631,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 44,
+    id: '44',
     title: 'Vagram',
     price: 88.09,
     description:
@@ -645,7 +645,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 45,
+    id: '45',
     title: 'Overhold',
     price: 1052.59,
     description:
@@ -659,7 +659,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 46,
+    id: '46',
     title: 'Sonsing',
     price: 825.03,
     description:
@@ -673,7 +673,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 47,
+    id: '47',
     title: 'Sub-Ex',
     price: 433.06,
     description:
@@ -687,7 +687,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 48,
+    id: '48',
     title: 'Quo Lux',
     price: 1265.78,
     description:
@@ -701,7 +701,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 49,
+    id: '49',
     title: 'Holdlamis',
     price: 665.69,
     description:
@@ -715,7 +715,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 50,
+    id: '50',
     title: 'Fintone',
     price: 1538.3,
     description:
@@ -729,7 +729,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 51,
+    id: '51',
     title: 'Veribet',
     price: 1125.61,
     description:
@@ -743,7 +743,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 52,
+    id: '52',
     title: 'Solarbreeze',
     price: 1577.39,
     description:
@@ -757,7 +757,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 53,
+    id: '53',
     title: 'Flowdesk',
     price: 1849.59,
     description:
@@ -767,7 +767,7 @@ const PRODUCTS: Product[] = [
     user: { avatar: '/authors/53.png', name: 'Pete Pohlke', job: 'Actuary' },
   },
   {
-    id: 54,
+    id: '54',
     title: 'Otcom',
     price: 520.74,
     description:
@@ -781,7 +781,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 55,
+    id: '55',
     title: 'Ronstring',
     price: 219.92,
     description:
@@ -795,7 +795,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 56,
+    id: '56',
     title: 'Otcom',
     price: 359.94,
     description:
@@ -809,7 +809,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 57,
+    id: '57',
     title: 'Fixflex',
     price: 262.46,
     description:
@@ -823,7 +823,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 58,
+    id: '58',
     title: 'Mat Lam Tam',
     price: 1989.01,
     description:
@@ -837,7 +837,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 59,
+    id: '59',
     title: 'Fintone',
     price: 1265.15,
     description:
@@ -851,7 +851,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 60,
+    id: '60',
     title: 'Job',
     price: 812.13,
     description:
@@ -865,7 +865,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 61,
+    id: '61',
     title: 'Zathin',
     price: 1878.67,
     description:
@@ -879,7 +879,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 62,
+    id: '62',
     title: 'Treeflex',
     price: 1265.29,
     description:
@@ -893,7 +893,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 63,
+    id: '63',
     title: 'Viva',
     price: 660.96,
     description:
@@ -907,7 +907,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 64,
+    id: '64',
     title: 'Konklux',
     price: 1443.49,
     description:
@@ -921,7 +921,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 65,
+    id: '65',
     title: 'Flowdesk',
     price: 885.1,
     description:
@@ -935,7 +935,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 66,
+    id: '66',
     title: 'Fix San',
     price: 190.92,
     description:
@@ -949,7 +949,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 67,
+    id: '67',
     title: 'Alpha',
     price: 667.34,
     description:
@@ -963,7 +963,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 68,
+    id: '68',
     title: 'Domainer',
     price: 41.73,
     description:
@@ -977,7 +977,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 69,
+    id: '69',
     title: 'Voyatouch',
     price: 1138.78,
     description:
@@ -991,7 +991,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 70,
+    id: '70',
     title: 'Konklux',
     price: 1035.38,
     description:
@@ -1005,7 +1005,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 71,
+    id: '71',
     title: 'Matsoft',
     price: 78.78,
     description:
@@ -1019,7 +1019,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 72,
+    id: '72',
     title: 'Vagram',
     price: 1138.48,
     description:
@@ -1033,7 +1033,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 73,
+    id: '73',
     title: 'Lotstring',
     price: 398.17,
     description:
@@ -1047,7 +1047,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 74,
+    id: '74',
     title: 'Quo Lux',
     price: 1443.08,
     description:
@@ -1057,7 +1057,7 @@ const PRODUCTS: Product[] = [
     user: { avatar: '/authors/74.png', name: 'Garry Pendre', job: 'Librarian' },
   },
   {
-    id: 75,
+    id: '75',
     title: 'Bitwolf',
     price: 714.96,
     description: 'In congue. Etiam justo. Etiam pretium iaculis justo.',
@@ -1070,7 +1070,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 76,
+    id: '76',
     title: 'Zamit',
     price: 975.92,
     description:
@@ -1084,7 +1084,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 77,
+    id: '77',
     title: 'Treeflex',
     price: 1930.95,
     description:
@@ -1098,7 +1098,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 78,
+    id: '78',
     title: 'Overhold',
     price: 1101.53,
     description:
@@ -1112,7 +1112,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 79,
+    id: '79',
     title: 'Bigtax',
     price: 863.37,
     description:
@@ -1126,7 +1126,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 80,
+    id: '80',
     title: 'Tin',
     price: 1087.15,
     description:
@@ -1140,7 +1140,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 81,
+    id: '81',
     title: 'Fintone',
     price: 857.78,
     description:
@@ -1154,7 +1154,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 82,
+    id: '82',
     title: 'Matsoft',
     price: 141.91,
     description:
@@ -1168,7 +1168,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 83,
+    id: '83',
     title: 'Voyatouch',
     price: 1056.15,
     description:
@@ -1182,7 +1182,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 84,
+    id: '84',
     title: 'Alphazap',
     price: 1548.53,
     description:
@@ -1196,7 +1196,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 85,
+    id: '85',
     title: 'Domainer',
     price: 1630.33,
     description:
@@ -1210,7 +1210,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 86,
+    id: '86',
     title: 'Zoolab',
     price: 1277.72,
     description:
@@ -1224,7 +1224,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 87,
+    id: '87',
     title: 'Ventosanzap',
     price: 71.84,
     description:
@@ -1238,7 +1238,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 88,
+    id: '88',
     title: 'Alpha',
     price: 857.64,
     description:
@@ -1252,7 +1252,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 89,
+    id: '89',
     title: 'Veribet',
     price: 1565.91,
     description:
@@ -1266,7 +1266,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 90,
+    id: '90',
     title: 'Tampflex',
     price: 1141.96,
     description:
@@ -1280,7 +1280,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 91,
+    id: '91',
     title: 'Opela',
     price: 455.56,
     description:
@@ -1294,7 +1294,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 92,
+    id: '92',
     title: 'Zamit',
     price: 927.99,
     description:
@@ -1308,7 +1308,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 93,
+    id: '93',
     title: 'Wrapsafe',
     price: 1614.54,
     description:
@@ -1318,7 +1318,7 @@ const PRODUCTS: Product[] = [
     user: { avatar: '/authors/93.png', name: 'Floria Khoter', job: 'Editor' },
   },
   {
-    id: 94,
+    id: '94',
     title: 'Andalax',
     price: 1533.98,
     description:
@@ -1332,7 +1332,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 95,
+    id: '95',
     title: 'Job',
     price: 40.48,
     description:
@@ -1346,7 +1346,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 96,
+    id: '96',
     title: 'Konklab',
     price: 992.67,
     description:
@@ -1360,7 +1360,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 97,
+    id: '97',
     title: 'Sub-Ex',
     price: 795.82,
     description:
@@ -1374,7 +1374,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 98,
+    id: '98',
     title: 'Biodex',
     price: 1624.53,
     description:
@@ -1388,7 +1388,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 99,
+    id: '99',
     title: 'Zathin',
     price: 1664.13,
     description:
@@ -1402,7 +1402,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 100,
+    id: '100',
     title: 'Cardguard',
     price: 1805.41,
     description:
@@ -1416,7 +1416,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 101,
+    id: '101',
     title: 'Matsoft',
     price: 462.04,
     description:
@@ -1430,7 +1430,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 102,
+    id: '102',
     title: 'Zoolab',
     price: 219.93,
     description:
@@ -1444,7 +1444,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 103,
+    id: '103',
     title: 'Aerified',
     price: 1718.46,
     description:
@@ -1458,7 +1458,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 104,
+    id: '104',
     title: 'Home Ing',
     price: 1199.85,
     description:
@@ -1472,7 +1472,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 105,
+    id: '105',
     title: 'Fixflex',
     price: 383.13,
     description:
@@ -1486,7 +1486,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 106,
+    id: '106',
     title: 'Cookley',
     price: 1508.77,
     description:
@@ -1500,7 +1500,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 107,
+    id: '107',
     title: 'Biodex',
     price: 1415.43,
     description:
@@ -1514,7 +1514,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 108,
+    id: '108',
     title: 'Solarbreeze',
     price: 253.08,
     description:
@@ -1528,7 +1528,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 109,
+    id: '109',
     title: 'Job',
     price: 633.61,
     description:
@@ -1542,7 +1542,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 110,
+    id: '110',
     title: 'Solarbreeze',
     price: 116.06,
     description:
@@ -1556,7 +1556,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 111,
+    id: '111',
     title: 'Tres-Zap',
     price: 459.21,
     description:
@@ -1570,7 +1570,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 112,
+    id: '112',
     title: 'Job',
     price: 230.78,
     description:
@@ -1584,7 +1584,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 113,
+    id: '113',
     title: 'Konklux',
     price: 906.73,
     description:
@@ -1598,7 +1598,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 114,
+    id: '114',
     title: 'Flowdesk',
     price: 386.09,
     description:
@@ -1612,7 +1612,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 115,
+    id: '115',
     title: 'Viva',
     price: 267.03,
     description:
@@ -1626,7 +1626,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 116,
+    id: '116',
     title: 'Rank',
     price: 453.71,
     description:
@@ -1640,7 +1640,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 117,
+    id: '117',
     title: 'Span',
     price: 1420.13,
     description:
@@ -1654,7 +1654,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 118,
+    id: '118',
     title: 'Fintone',
     price: 496.18,
     description:
@@ -1668,7 +1668,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 119,
+    id: '119',
     title: 'Kanlam',
     price: 1240.51,
     description:
@@ -1682,7 +1682,7 @@ const PRODUCTS: Product[] = [
     },
   },
   {
-    id: 120,
+    id: '120',
     title: 'Matsoft',
     price: 890.9,
     description:

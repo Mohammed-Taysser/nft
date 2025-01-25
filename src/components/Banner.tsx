@@ -2,7 +2,7 @@ import { Container } from '@chakra-ui/react';
 import Link from 'next/link';
 import { useMemo } from 'react';
 
-function Banner(props: { items: BannerItem[] }) {
+function Banner(props: Readonly<{ items: BannerItem[] }>) {
   const items = useMemo(
     () => props.items?.slice(0, props.items.length - 1),
     [props.items]

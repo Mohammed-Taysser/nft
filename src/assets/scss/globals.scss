@@ -188,13 +188,11 @@ header.header {
 .likes {
   padding: 0.25rem 0.5rem;
   border-radius: 0.375rem;
-  position: absolute;
   padding-left: 0.25rem;
   top: 1rem;
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(20, 20, 32);
-  right: 1rem;
   background-color: #fff;
   font-weight: 600;
   display: flex;
@@ -327,19 +325,6 @@ ul.banner-breadcrumb {
             color: rgb(161, 160, 174);
           }
         }
-      }
-
-      .timer {
-        color: #fff;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        font-weight: 600;
-        padding: 10px;
-        border-radius: 0.375rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(255, 255, 255, 0.1);
       }
     }
 
@@ -631,4 +616,17 @@ footer.footer {
       }
     }
   }
+}
+
+.timer {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 0.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
 }

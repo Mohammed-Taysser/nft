@@ -3,7 +3,7 @@
 import { calculatingRemainingTime } from '@/helpers/date';
 import React, { useEffect, useState } from 'react';
 
-function Timer(props: { timeout: Date }) {
+function Timer(props: Readonly<{ timeout: Date }>) {
   const [timer, setTimer] = useState('00 : 00 : 00 : 00');
 
   useEffect(() => {
@@ -22,7 +22,7 @@ function Timer(props: { timeout: Date }) {
     };
   }, [props.timeout]);
 
-  return <>{timer}</>;
+  return <div className='timer'>{timer}</div>;
 }
 
 export default Timer;

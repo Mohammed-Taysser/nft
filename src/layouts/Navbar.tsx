@@ -30,15 +30,27 @@ function Navbar() {
           <div className='sitemap'>
             <ul>
               <li>
-                <Link href='/'>Homepage</Link>
+                <Link className={pathname === '/' ? 'active' : ''} href='/'>
+                  Homepage
+                </Link>
               </li>
 
               <li>
-                <Link href='/explore'>Explore</Link>
+                <Link
+                  className={pathname === '/explore' ? 'active' : ''}
+                  href='/explore'
+                >
+                  Explore
+                </Link>
               </li>
 
               <li>
-                <Link href='/'>Community</Link>
+                <Link
+                  className={pathname === '/support' ? 'active' : ''}
+                  href='/support'
+                >
+                  Support
+                </Link>
               </li>
 
               <li>
@@ -61,25 +73,21 @@ function Navbar() {
                     <MenuItem as={Link} href='/forget-password'>
                       Forget Password
                     </MenuItem>
-                    <MenuItem as={Link} href='/'>
-                      Delete
+                    <MenuItem as={Link} href='/explore'>
+                      Explore
                     </MenuItem>
-                    <MenuItem as={Link} href='/'>
-                      Attend a Workshop
+                    <MenuItem as={Link} href='/explore/1'>
+                      Explore Item
                     </MenuItem>
                   </MenuList>
                 </Menu>
-              </li>
-
-              <li>
-                <Link href='/support'>Support</Link>
               </li>
             </ul>
           </div>
 
           <Spacer />
 
-          <Link href='connect-wallet'>
+          <Link href='/connect-wallet'>
             <Button leftIcon={<IoWalletOutline />}>Wallet Connect</Button>
           </Link>
         </Flex>

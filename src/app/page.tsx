@@ -45,7 +45,7 @@ function Homepage() {
 
         <Box my={70}></Box>
 
-        <SectionTitle title="Today's Picks" url='/products' />
+        <SectionTitle title="Today's Picks" url='/explore' />
 
         <Products products={PRODUCTS.slice(0, 6)} />
 
