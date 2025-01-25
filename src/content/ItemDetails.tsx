@@ -45,6 +45,7 @@ function ExploreProducts(props: Readonly<{ id: string }>) {
 
   useEffect(() => {
     getProductInfo();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.id]);
 
   const getProductInfo = () => {

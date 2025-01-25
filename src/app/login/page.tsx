@@ -57,7 +57,7 @@ function Login() {
           <Divider mt={10} mb={5} />
 
           <div className='text-center text-[gray]'>
-            Don't you have an account?{' '}
+            Don&#39;t you have an account?{' '}
             <Link href='/register' className='hover:text-white duration-300'>
               Sign up
             </Link>
