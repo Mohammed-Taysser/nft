@@ -1,3 +1,5 @@
+import heroBG from '@/assets/images/background/hero-bg.png';
+import heroImage from '@/assets/images/background/hero-image.svg';
 import blurImage from '@/assets/images/icons/blur.svg';
 import {
   Button,
@@ -7,8 +9,7 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import Image from 'next/image';
-import heroBG from '@/assets/images/background/hero-bg.png';
-import heroImage from '@/assets/images/background/hero-image.svg';
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -41,8 +42,11 @@ function Header() {
 
             <Wrap spacing='30px'>
               <WrapItem>
-                <Button size='lg'>Explore now</Button>
+                <Button as={Link} href='/explore' size='lg'>
+                  Explore now
+                </Button>
               </WrapItem>
+
               <WrapItem>
                 <Button size='lg' variant='outline'>
                   Upload Your Art

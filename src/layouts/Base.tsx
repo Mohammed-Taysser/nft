@@ -5,7 +5,7 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 import { ColorModeScript } from '@chakra-ui/react';
 
-function Base(props: { children: React.ReactNode }) {
+function Base(props: Readonly<{ children: React.ReactNode }>) {
   return (
     <>
       <ColorModeScript initialColorMode='dark' />

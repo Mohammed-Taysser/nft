@@ -52,14 +52,14 @@ function Navbar() {
                     Pages
                   </MenuButton>
                   <MenuList className='dropdown'>
-                    <MenuItem as={Link} href='/'>
-                      Download
+                    <MenuItem as={Link} href='/login'>
+                      Login
                     </MenuItem>
-                    <MenuItem as={Link} href='/'>
-                      Create a Copy
+                    <MenuItem as={Link} href='/register'>
+                      Register
                     </MenuItem>
-                    <MenuItem as={Link} href='/'>
-                      Mark as Draft
+                    <MenuItem as={Link} href='/forget-password'>
+                      Forget Password
                     </MenuItem>
                     <MenuItem as={Link} href='/'>
                       Delete
